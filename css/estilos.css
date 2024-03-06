@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
 :root {
   --cinza: #aaa;
   --vermelha: #e93d50;
@@ -8,7 +10,7 @@
 
 body {
   align-items: center;
-  background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+  background: linear-gradient(45deg, #ffd463 0%,#ff97d9 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -18,13 +20,18 @@ body {
 
 h1 {
   color: var(--branca);
-  margin-bottom: 20px;
-  font-size: 2rem;
+  margin-bottom: 4%;
+  padding: 0px 15px;
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Anta", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .teclado {
   background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
-  box-shadow: 6px 8px 0 6px #666, 10px 10px 10px #000;
+  box-shadow: 6px 8px 10px 6px #6666668e, 10px 10px 10px #00000066;
   border-radius: 30px;
   display: grid;
   gap: 10px;
